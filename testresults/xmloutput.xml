@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Do everything:" timestamp="2018-02-26T15:37:39" hostname="localhost" time="239.245" errors="0" tests="93" skipped="0" disabled="0" failures="14">
+  <testcase classname="Do everything:" name="Checks if youre logged in" time="67.983">
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\usr\local\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3917:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\usr\local\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3917:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="impersonates a user on Santas account" time="60.633">
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\usr\local\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3917:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\usr\local\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3917:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="verifies agnl" time="0.814" />
+  <testcase classname="Do everything:" name="verifies agnlGains" time="0.899" />
+  <testcase classname="Do everything:" name="verifies agnlGainsT" time="0.704" />
+  <testcase classname="Do everything:" name="verifies agnlLosses" time="1.145" />
+  <testcase classname="Do everything:" name="verifies agnlLossesT" time="0.855" />
+  <testcase classname="Do everything:" name="verifies agnlNet" time="0.849" />
+  <testcase classname="Do everything:" name="verifies agnlNetT" time="0.747">
+   <failure type="toEqual" message="Expected false to equal true."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:105:32)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="verifies albr" time="0.938" />
+  <testcase classname="Do everything:" name="verifies albrT" time="0.834" />
+  <testcase classname="Do everything:" name="verifies agbs" time="0.764" />
+  <testcase classname="Do everything:" name="verifies agbsT" time="0.78" />
+  <testcase classname="Do everything:" name="verifies glbtGains" time="0.697" />
+  <testcase classname="Do everything:" name="verifies glbtGainsT" time="0.673" />
+  <testcase classname="Do everything:" name="verifies glbtLosses" time="0.715" />
+  <testcase classname="Do everything:" name="verifies glbtLossesT" time="0.744" />
+  <testcase classname="Do everything:" name="verifies glbtW2A" time="0.672" />
+  <testcase classname="Do everything:" name="verifies glbtW2AT" time="0.666" />
+  <testcase classname="Do everything:" name="verifies glbtA2W" time="0.671" />
+  <testcase classname="Do everything:" name="verifies glbtA2WT" time="0.753" />
+  <testcase classname="Do everything:" name="verifies glbtNet" time="0.73" />
+  <testcase classname="Do everything:" name="verifies glbtNetT" time="0.675" />
+  <testcase classname="Do everything:" name="verifies profTanksActive" time="0.635" />
+  <testcase classname="Do everything:" name="verifies profTanksBudget" time="0.671" />
+  <testcase classname="Do everything:" name="verifies profTanksNo" time="0.797" />
+  <testcase classname="Do everything:" name="verifies profTanksActiveT" time="0.674" />
+  <testcase classname="Do everything:" name="verifies profTanksBudgetT" time="0.775" />
+  <testcase classname="Do everything:" name="verifies profTanksNoT" time="1.187" />
+  <testcase classname="Do everything:" name="verifies profAccActive" time="0.812" />
+  <testcase classname="Do everything:" name="verifies profAccBudget" time="0.721" />
+  <testcase classname="Do everything:" name="verifies profAccNo" time="0.662" />
+  <testcase classname="Do everything:" name="verifies profAccActiveT" time="0.703" />
+  <testcase classname="Do everything:" name="verifies profAccBudgetT" time="0.821" />
+  <testcase classname="Do everything:" name="verifies profAccNoT" time="0.686" />
+  <testcase classname="Do everything:" name="changes to delivery tab" time="6.811">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:271:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="verifies aid" time="0.665" />
+  <testcase classname="Do everything:" name="verifies partial" time="0.673" />
+  <testcase classname="Do everything:" name="verifies runout" time="0.671" />
+  <testcase classname="Do everything:" name="verifies gph" time="0.675" />
+  <testcase classname="Do everything:" name="verifies gmph" time="0.683" />
+  <testcase classname="Do everything:" name="changes to finance tab" time="6.616">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:320:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="is lfvtotal present" time="1.016" />
+  <testcase classname="Do everything:" name="is lfvcap present" time="0.834" />
+  <testcase classname="Do everything:" name="is lfvFix present" time="0.717" />
+  <testcase classname="Do everything:" name="is lfvVar present" time="1.12" />
+  <testcase classname="Do everything:" name="opens the settings for Budget Variance" time="3.351">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:403:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="opens the period selector" time="1.485">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:409:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="closes the widget settings" time="4.393">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:417:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="selects what year" time="5.318">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:423:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="is unit present" time="0.665" />
+  <testcase classname="Do everything:" name="gross margin check" time="0.659" />
+  <testcase classname="Do everything:" name="is maCap present" time="0.599" />
+  <testcase classname="Do everything:" name="is maFix present" time="0.782" />
+  <testcase classname="Do everything:" name="is maVar present" time="5.616" />
+  <testcase classname="Do everything:" name="changes to petro tab" time="6.224">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:510:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="changes to service tab" time="6.113">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:521:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="verifies servTotText" time="0.758" />
+  <testcase classname="Do everything:" name="verifies totalCalls" time="0.667" />
+  <testcase classname="Do everything:" name="verifies totalRevenue" time="1.013" />
+  <testcase classname="Do everything:" name="verifies acCalls" time="0.719" />
+  <testcase classname="Do everything:" name="verifies acRevenue" time="0.682" />
+  <testcase classname="Do everything:" name="verifies acCost" time="0.631" />
+  <testcase classname="Do everything:" name="verifies acMargin" time="0.691" />
+  <testcase classname="Do everything:" name="verifies acRPC" time="0.65" />
+  <testcase classname="Do everything:" name="verifies acMPC" time="0.633" />
+  <testcase classname="Do everything:" name="verifies cCalls" time="0.635" />
+  <testcase classname="Do everything:" name="verifies cRevenue" time="0.641" />
+  <testcase classname="Do everything:" name="verifies cCost" time="0.623" />
+  <testcase classname="Do everything:" name="verifies cMargin" time="0.719" />
+  <testcase classname="Do everything:" name="verifies cRPC" time="0.638" />
+  <testcase classname="Do everything:" name="verifies cMPC" time="0.609" />
+  <testcase classname="Do everything:" name="verifies iCalls" time="0.623" />
+  <testcase classname="Do everything:" name="verifies iRevenue" time="0.634" />
+  <testcase classname="Do everything:" name="verifies iCost" time="0.638" />
+  <testcase classname="Do everything:" name="verifies iMargin" time="0.628" />
+  <testcase classname="Do everything:" name="verifies iRPC" time="0.632" />
+  <testcase classname="Do everything:" name="verifies iMPC" time="0.624" />
+  <testcase classname="Do everything:" name="verifies ncCalls" time="0.618" />
+  <testcase classname="Do everything:" name="verifies ncRevenue" time="0.621" />
+  <testcase classname="Do everything:" name="verifies ncCost" time="0.67" />
+  <testcase classname="Do everything:" name="verifies ncMargin" time="0.641" />
+  <testcase classname="Do everything:" name="verifies ncRPC" time="0.623" />
+  <testcase classname="Do everything:" name="verifies ncMPC" time="0.629" />
+  <testcase classname="Do everything:" name="changes to tms tab" time="6.523">
+   <failure type="toEqual" message="Expected &apos;http://8.39.160.52:88/#/&apos; to equal &apos;https://dev.angusdev.com/#/&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (C:\Users\spickard\Documents\Selenium\protractor\brite\santa.js:695:35)
+    at C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\usr\local\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\usr\local\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Do everything:" name="verifies withmonPTD" time="0.639" />
+  <testcase classname="Do everything:" name="verifies withmonAD" time="0.637" />
+  <testcase classname="Do everything:" name="verifies withmonAV" time="0.624" />
+  <testcase classname="Do everything:" name="verifies withmonVO20" time="0.616" />
+  <testcase classname="Do everything:" name="verifies woOD" time="0.65" />
+  <testcase classname="Do everything:" name="verifies woAD" time="0.619" />
+  <testcase classname="Do everything:" name="verifies woAV" time="0.635" />
+  <testcase classname="Do everything:" name="verifies woVO20" time="0.632" />
+ </testsuite>
+</testsuites>
